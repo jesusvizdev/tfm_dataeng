@@ -27,12 +27,10 @@ __pycache__/
 
 # Carpetas de compilación y distribucion
 build/
-dist/
 *.egg-info/
 
 # Datos y artefactos generados
 artifacts/
-data/
 notebooks/.ipynb_checkpoints/
 
 # Archivos de Docker intermedios
