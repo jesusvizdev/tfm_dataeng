@@ -92,4 +92,4 @@ Ejecutar el contenedor (conexión a Event Hubs):
 ```bash
 docker run --rm iot-sensor-producer
 ```
-**Nota:** El contenedor Docker se puede ejecutar en local y mostrará por consola los datos simulados que se estarían enviando a Event Hubs. No se puede comprobar el flujo completo hacia Azure porque el Event Hub es privado.
+**Nota:** El contenedor Docker se puede ejecutar en local y mostrará por consola los datos simulados que se estarían enviando a Event Hubs. No se puede comprobar el flujo completo hacia Azure porque el Event Hub es privado. Además, el Endpoint de conexión a EventHubs se encuentra en un .env, dado que GitHub bloquea el código con Azure Secrets"
