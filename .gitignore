@@ -1,0 +1,44 @@
+# Entorno virtual
+.venv/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de desarrollo
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Configuracion local de IDEs
+.vscode/
+.idea/
+
+# Carpetas de compilación y distribucion
+build/
+dist/
+*.egg-info/
+
+# Datos y artefactos generados
+artifacts/
+data/
+notebooks/.ipynb_checkpoints/
+
+# Archivos de Docker intermedios
+.dockerignore
+Dockerfile~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
